@@ -5,7 +5,7 @@ ngroup=30
 names=paste("G_",seq(1,ngroup),sep="")
 DAT=data.frame()
 
-# zeile angepasst 22
+# zeile angepasst 33
 for(i in seq(1:30)){
   data=data.frame( matrix(0, ngroup , 3))
   data[,1]=i
